@@ -70,7 +70,7 @@ I thought this project was an important one to do because it combines performanc
 ## Newton's Kinematic Equations ⇒ `Solver::Update()`:
 Newton's second equation of motion:
 
-$$\vec{x} = \vec{x}_0 + \vec{v}_{x0} \, t + \frac{1}{2} \vec{a}_x \, t^2$$
+$$\vec{x} = \vec{x}_0 + \vec{v}_{x0} t + \frac{1}{2} \vec{a}_x t^2$$
 
 Our code uses `deltaTime`, or $\Delta t$:
 
