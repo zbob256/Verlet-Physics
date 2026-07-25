@@ -74,7 +74,7 @@ $$\vec{x} = \vec{x}_0 + \vec{v}_{x0} t + \frac{1}{2} \vec{a}_x t^2$$
 
 Our code uses `deltaTime`, or $\Delta t$:
 
-$$x = x_0 + v_0 \, \Delta t + \frac{1}{2} a \, \Delta t^2$$
+$$x = x_0 + v_0 \Delta t + \frac{1}{2} a \Delta t^2$$
 
 `velocity` takes into account $\Delta t$:
 
@@ -82,15 +82,15 @@ $$v_0 \approx \frac{x_n - x_{n-1}}{\Delta t}$$
 
 Substituting this in, $\Delta t$ cancels out:
 
-$$x = x_n + (x_n - x_{n-1}) + \frac{1}{2} a \, \Delta t^2$$
+$$x = x_n + (x_n - x_{n-1}) + \frac{1}{2} a \Delta t^2$$
 
 Drop the $\frac{1}{2}$ since we already scale gravity by `SCALE` in [settings.hpp](include/settings.hpp):
 
-$$x = x_n + (x_n - x_{n-1}) + a \, \Delta t^2$$
+$$x = x_n + (x_n - x_{n-1}) + a \Delta t^2$$
 
 Simplify to get your standard Verlet integration formula:
 
-$$x_{n+1} = 2x_n - x_{n-1} + a \, \Delta t^2$$
+$$x_{n+1} = 2x_n - x_{n-1} + a \Delta t^2$$
 
 In the code:
 ```c++
