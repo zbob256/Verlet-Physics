@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/27zbo/Documents/Code/Verlet-Physics/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Verlet-Physics.dir/includes_CXX.rsp -g -o CMakeFiles\\Verlet-Physics.dir\\src\\main.cpp.obj -c C:\\Users\\27zbo\\Documents\\Code\\Verlet-Physics\\src\\main.cpp",
+  "file": "C:/Users/27zbo/Documents/Code/Verlet-Physics/src/main.cpp",
+  "output": "CMakeFiles/Verlet-Physics.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/27zbo/Documents/Code/Verlet-Physics/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Verlet-Physics.dir/includes_CXX.rsp -g -o CMakeFiles\\Verlet-Physics.dir\\src\\render\\render.cpp.obj -c C:\\Users\\27zbo\\Documents\\Code\\Verlet-Physics\\src\\render\\render.cpp",
+  "file": "C:/Users/27zbo/Documents/Code/Verlet-Physics/src/render/render.cpp",
+  "output": "CMakeFiles/Verlet-Physics.dir/src/render/render.cpp.obj"
+},
+{
+  "directory": "C:/Users/27zbo/Documents/Code/Verlet-Physics/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Verlet-Physics.dir/includes_CXX.rsp -g -o CMakeFiles\\Verlet-Physics.dir\\src\\engine\\solver.cpp.obj -c C:\\Users\\27zbo\\Documents\\Code\\Verlet-Physics\\src\\engine\\solver.cpp",
+  "file": "C:/Users/27zbo/Documents/Code/Verlet-Physics/src/engine/solver.cpp",
+  "output": "CMakeFiles/Verlet-Physics.dir/src/engine/solver.cpp.obj"
+}
+]

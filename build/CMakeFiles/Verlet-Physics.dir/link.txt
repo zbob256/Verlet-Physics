@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Verlet-Physics.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\Verlet-Physics.dir/objects.a @CMakeFiles\Verlet-Physics.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Verlet-Physics.dir/objects.a -Wl,--no-whole-archive -o Verlet-Physics.exe -Wl,--out-implib,libVerlet-Physics.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Verlet-Physics.dir\linkLibs.rsp
