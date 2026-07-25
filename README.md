@@ -45,8 +45,10 @@ Run the code and use [settings.hpp](include/settings.hpp) to change constants. P
 - If the speed of the balls while initially spawning in is not great enough, the balls will collide and go in multiple different directions, instead of one steady stream.
 - Certain combinations of `SLACK` and `SLACK_GAP_EXTRA_PX` creates tension which can make the rope have waves. However this can happen with real ropes too, such as a bungee coords, so I kept this in. Also, with higher values of `SLACK` balls will clump together, but it can be fixed when shooting at it.
 
-<img alt="Demo" src="media/recording4.gif" width="300"/>
-<img alt="Demo" src="media/recording5.gif" width="300"/>
+<p>
+    <img alt="Demo" src="media/recording4.gif" width="300"/>
+    <img alt="Demo" src="media/recording5.gif" width="300"/>
+</p>
 
 - To many balls in the window will cause them to "explode" but the window constraints will keep them in so they just bounce around super quickly.
 
